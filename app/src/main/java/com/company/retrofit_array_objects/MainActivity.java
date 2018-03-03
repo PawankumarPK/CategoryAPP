@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(Call<Feed> call, Throwable t) {
                 Log.e(TAG, "onFailure: Something went wrong: " + t.getMessage());
                 Toast.makeText(MainActivity.this, "Something went wrong", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Something great", Toast.LENGTH_SHORT).show();
             }
         });
     }
