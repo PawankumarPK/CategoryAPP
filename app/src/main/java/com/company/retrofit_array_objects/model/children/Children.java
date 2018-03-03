@@ -36,4 +36,5 @@ public class Children {
                 ", kind='" + kind + '\'' +
                 '}';
     }
+    //im good and what about othores
 }
