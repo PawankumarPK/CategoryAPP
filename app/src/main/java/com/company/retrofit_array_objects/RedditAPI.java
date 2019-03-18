@@ -10,17 +10,6 @@ public interface RedditAPI {
 
     String BASE_URL = "https://www.reddit.com/";
 
-    //HEllooooooo
-//hjhgjh
-    //Yafgdhjofg
-    //fgnfgf
-    //fgfg
-    //fgggfgf
-    //fgjdfgjdgjgjhtyhythjgkkvhjkj
-
-
-
-    String url = "";
 
     @Headers("Content-Type: application/json")
     @GET(".json")
